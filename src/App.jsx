@@ -1,5 +1,6 @@
-import { Footer, Navbar, Page } from "./components/component"
-
+import Navbar from "./components/Navbar"
+import Footer from './components/Footer'
+import Page from './pages/Page'
 
 function App() {
   return (

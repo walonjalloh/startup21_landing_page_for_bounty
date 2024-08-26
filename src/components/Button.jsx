@@ -14,6 +14,4 @@ Button.propTypes = {
     func : PropTypes.func
 }
 
-Button.defaultProps = {
-    name: 'button-state'
-}
+

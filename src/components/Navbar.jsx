@@ -1,4 +1,4 @@
-import { Button } from './component'
+import  Button  from './Button'
 import { logo } from '../assets/asset'
 import { FaBars } from 'react-icons/fa'
 import { useState } from 'react'
@@ -13,11 +13,11 @@ function Navbar() {
   }
 
   return (
-    <header>
+    <header className='md:h-[80px] lg:h-[160px] bg-blue-500 sticky top-0 z-50'> 
       <nav>
-        <div className='flex justify-between items-center mx-4 my-4 '>
+        <div className='flex justify-between items-center mx-4  '>
           <div><img src={logo} alt="logo" className='h-[65px] w-[100px] lg:h-[160px] lg:w-[220px]'/></div>
-          <div className='hidden md:flex gap-4 text-2xl cursor-pointer lg:text-4xl'>
+          <div className='hidden md:flex gap-4 text-2xl cursor-pointer lg:gap-5 lg:text-4xl'>
             <a href="#">Home</a>
             <a href="#">About Us</a>
             <a href="#">Services</a>
@@ -32,12 +32,12 @@ function Navbar() {
         </div>
       </nav>
       {isopen && (
-        <div className='sticky top-0 flex flex-col text-center items-center gap-2 cursor-pointer bg-transparent'>
+        <div className='flex flex-col text-xl text-center md:hidden items-center gap-3 my-2 cursor-pointer'>
         <a href="#">Home</a>
         <a href="#">About Us</a>
         <a href="#">Services</a>
         <a href="#">Contact Us</a>
-        <Button name='Sign Up' classname='text-white t flex bg-black rounded-md  px-6 py-2'/>
+        <Button name='Sign Up' classname='text-white t flex bg-black  rounded-md  px-6 py-2 my-1'/>
       </div>
       )}
       
