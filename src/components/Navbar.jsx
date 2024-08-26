@@ -13,11 +13,11 @@ function Navbar() {
   }
 
   return (
-    <header className='md:h-[80px] lg:h-[160px] bg-blue-500 sticky top-0 z-50'> 
+    <header className='md:h-[65px] lg:h-[70px] bg-blue-500 sticky top-0 z-50'> 
       <nav>
         <div className='flex justify-between items-center mx-4  '>
-          <div><img src={logo} alt="logo" className='h-[65px] w-[100px] lg:h-[160px] lg:w-[220px]'/></div>
-          <div className='hidden md:flex gap-4 text-2xl cursor-pointer lg:gap-5 lg:text-4xl'>
+          <div><img src={logo} alt="logo" className='h-[65px] w-[100px] lg:h-[70px] lg:w-[100px]'/></div>
+          <div className='hidden md:flex gap-4 text-2xl cursor-pointer lg:gap-10 lg:text-3xl'>
             <a href="#">Home</a>
             <a href="#">About Us</a>
             <a href="#">Services</a>
