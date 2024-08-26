@@ -28,52 +28,48 @@ function AboutUs(){
   };
 
   return (
-    <section className="flex justify-center">
+    <section className="flex flex-col md:flex justify-center ">
       <div>
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-3xl font-bold my-2">About Us</h1>
-          <p className="text-center text-xl font-serif font-medium">
+          <p className="text-center text-xl font-serif font-medium mx-2">
             Welcome to Learn X, where we're reshaping the future of education.
             Founded in 2020, we've been at the forefront of educational
             innovation, serving over 1 million learners across 50 countries.
           </p>
         </div>
-        <div className="flex gap-2 ">
-          {Object.keys(tabs).map((tab) => (
-            <button
-              key={tab}
-              className={`tab-button ${activeTab === tab ? "active" : ""}`}
-              onClick={() => setActiveTab(tab)}
-            >
-              {tabs[tab].title}
-            </button>
-          ))}
+        <div className="flex flex-col justify-center">
+          <h1 className="text-center mt-5 font-bold text-3xl">Our Vision</h1>
+          <p className="text-xl text-center font-medium font-serif mx-4">We are here to help every get familiar with the web and how you can build product for it and also
+            earned a money
+          </p>
         </div>
-
-        <div className="tab-content">
-          <h2>{tabs[activeTab].title}</h2>
-          <p>{tabs[activeTab].content}</p>
-        </div>
-
-        <div className="statistics">
-          <div className="stat-item">
-            <h3>1M+</h3>
-            <p>Learners</p>
-          </div>
-          <div className="stat-item">
-            <h3>50+</h3>
-            <p>Countries</p>
-          </div>
-          <div className="stat-item">
-            <h3>100+</h3>
-            <p>Courses</p>
-          </div>
-        </div>
-
         <div className="">
-          <h2>Join Our Learning Community</h2>
-          <p>Experience the future of education today!</p>
-          <Button name="Get Started" />
+          <div className="flex flex-col justify-center items-center">
+            <div className="flex">
+              <h2 className="text-center font-bold mt-6 text-3xl ">Our Statistics</h2>
+            </div>
+            <div className="flex flex-col gap-4  md:flex-row md:gap-[200px] mt-5">
+              <div className="flex flex-col flex-1  text-center">
+                <h3 className="font-bold text-2xl ">1M+</h3>
+                <p className="text-xl font-medium">Learners</p>
+              </div>
+              <div className="flex flex-col text-center flex-1">
+                <h3 className="font-bold text-2xl ">50+</h3>
+                <p className="font-medium text-xl">Countries</p>
+              </div>
+              <div className="flex flex-col text-center flex-1">
+                <h3 className="font-bold text-2xl">100+</h3>
+                <p className="font-medium text-xl">Courses</p>
+              </div>
+            </div>  
+          </div>
+        </div>
+
+        <div className="flex flex-col mt-10 text-center items-center">
+          <h2 className="text-3xl font-bold font-mono ">Join Our Learning Community</h2>
+          <p className="text-xl font-medium">Experience the future of education today!</p>
+          <Button name="Get Started" classname='text-white bg-black px-4 py-2  rounded-md mt-2 ' />
         </div>
       </div>
     </section>
