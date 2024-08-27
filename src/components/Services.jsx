@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid'
 
 function Services() {
   return (
-    <section name='services' className="py-24">
+    <section name='pricing' className="py-24">
         <div className="flex flex-col items-center mx-2">
             <h2 className="text-2xl font-bold text-center">Pricing</h2>
             <p className="mt-6 font-sm mx-auto max-w-[540px] text-xl text-center tracking-tight">Free forever. 
