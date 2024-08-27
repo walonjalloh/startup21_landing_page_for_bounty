@@ -4,9 +4,19 @@ import Products from "../components/Products"
 import Services from "../components/Services"
 import MeetTeam from "../components/MeetTeam"
 import CallToAction from "../components/CallToAction"
+import Contact from "../components/Contact"
+import { useState } from "react"
 
 
 function Page() {
+
+  const [open, setOpen] = useState(false);
+
+  function hanldeOpen(){
+    setOpen(!open);
+  }
+
+
   return (
     <div>
         <Hero/>
@@ -14,7 +24,8 @@ function Page() {
         <Products/>
         <Services/>
         <MeetTeam/>
-        <CallToAction/>
+        <CallToAction btn={hanldeOpen}/>
+        <Contact open={open}/>
     </div>
   )
 }
