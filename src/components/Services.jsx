@@ -1,6 +1,7 @@
 import pricingTiers from "../utils/data"
 import { FaCheck } from "react-icons/fa"
 import { twMerge } from "tailwind-merge"
+import { v4 as uuidv4 } from 'uuid'
 
 function Services() {
   return (
@@ -28,7 +29,7 @@ function Services() {
                         <button className={twMerge("border border-black bg-black text-white rounded-xl px-2 py-2 w-full mt-[30px]",card.inverse && 'bg-white text-black')}>{card.buttonText}</button>
                         <ul className="flex flex-col gap-5 mt-8">
                             {card.features.map((feature) => (
-                                <li className="text-sm flex items-center gap-4"><FaCheck/><span>{feature}</span></li>
+                                <li key={uuidv4()} className="text-sm flex items-center gap-4"><FaCheck/><span>{feature}</span></li>
                             ))}
                         </ul>
                     </div>
