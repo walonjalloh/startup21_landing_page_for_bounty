@@ -4,7 +4,7 @@ import { Link } from "react-scroll"
 
 function CallToAction({ btn }) {
   return (
-    <section className="py-24 ">
+    <section className="py-10 ">
             <div className="flex flex-col justify-center items-center">
                 <h1 className="font-bold text-3xl text-center mx-2 my-4 tracking-tight leading-none">Sign Up For Free Today</h1>
                 <p className="font-medium text-lg text-center mx-2">Boost your educational portfolio with Learn X today and get the knowledge your need to 
