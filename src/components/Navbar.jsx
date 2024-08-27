@@ -1,5 +1,5 @@
 import  Button  from './Button'
-import { logo } from '../assets/asset'
+import logo from '../assets/logo.png'
 import { FaBars } from 'react-icons/fa'
 import { useState } from 'react'
 import { Link } from 'react-scroll'
@@ -24,7 +24,7 @@ function Navbar() {
             <li><Link to='home' smooth={true} offset={0} duration={500}>Home</Link></li>
             <li><Link to='about_us' smooth={true} offset={-240} duration={500} >About Us</Link></li>
             <li><Link to='services' smooth={true} offset={240} duration={500}>Services</Link></li>
-            <li href="#">Contact Us</li>
+            <li><Link to='contact' smooth={true} offset={-150} duration={500}>Contact Us</Link></li>
           </div>
           <div>
             <Button name='Sign Up' classname='text-white hidden md:flex bg-black rounded-md md:text-xl lg:text-2xl px-4 py-2'/>

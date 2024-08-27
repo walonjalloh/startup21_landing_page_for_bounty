@@ -1,5 +1,4 @@
-import { product } from "../assets/asset"
-
+import product from '../assets/product.png'
 
 function Products() {
   return (

@@ -1,4 +1,4 @@
-import { team } from "../assets/asset"
+import team from '../assets/team.jpg'
 
 const teamMember = [{
     key:1,
