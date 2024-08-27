@@ -49,7 +49,7 @@ function MeetTeam() {
                     <img src={team} alt="img" className="h-10 w-10 my-2" />
                     <h2 className="font-bold text-black/70 my-2">Jane Doe</h2>
                     <p className="font-medium text-md my-4 ">PRO</p>
-                    <p className="w-[300px] text-center">She is the one that keep us in check so we don't say things that we wont deliver on.</p>
+                    <p className="w-[300px] text-center">She is the one that keep us in check so we do not say things that we wont deliver on.</p>
                 </div>  
                 <div className="flex flex-col justify-center items-center border border-white/50 shadow-[0_7px_14px_#f4f4f4]  my-4 ">
                     <img src={team} alt="img" className="h-10 w-10 my-2"  />
@@ -91,7 +91,7 @@ function MeetTeam() {
                     <img src={team} alt="img" className="h-10 w-10 my-2" />
                     <h2 className="font-bold text-black/70 my-2">Jane Doe</h2>
                     <p className="font-medium text-md my-4 ">PRO</p>
-                    <p className="w-[300px] text-center">She is the one that keep us in check so we don't say things that we wont deliver on.</p>
+                    <p className="w-[300px] text-center">She is the one that keep us in check so we do not say things that we wont deliver on.</p>
                 </div>  
                 <div className="flex flex-col justify-center items-center border border-white/50 shadow-[0_7px_14px_#f4f4f4]  my-4 ">
                     <img src={team} alt="img" className="h-10 w-10 my-2"  />

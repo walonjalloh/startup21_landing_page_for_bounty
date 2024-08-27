@@ -12,14 +12,14 @@ function Footer() {
   return (
     <footer name='contact' className='bg-black'>
       <div className='flex flex-col gap-4 items-center mt-2 pt-2'>
-        <nav className='list-none flex flex-col md:flex-row md:gap-5 text-white md:text-xl gap-4 font-bold '>
+        <nav className='list-none flex flex-col md:flex-row md:gap-5 text-center text-white md:text-xl gap-4 font-bold '>
           <li><Link>About Us</Link></li>
           <li><Link>Pricing</Link></li>
           <li><Link>Contact Us</Link></li>
           <li><Link>Career</Link></li>
           <li><Link>Help</Link></li>
         </nav>
-        <div className='flex gap-10 items-center text-white justify-center'>
+        <div className='flex gap-10 items-center h-10  text-white justify-center'>
           <FaFacebook/>
           <FaWhatsapp/>
           <FaTwitter/>
