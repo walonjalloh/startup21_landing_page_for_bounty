@@ -35,11 +35,11 @@ function Navbar() {
         </div>
       </nav>
       {isopen && (
-        <div className='flex flex-col text-xl text-center font-bold md:hidden items-center gap-3 my-2 cursor-pointer'>
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Services</a>
-        <a href="#">Contact Us</a>
+        <div className='flex flex-col text-xl text-center font-bold md:hidden items-center gap-3 my-2 cursor-pointer list-none'>
+          <li><Link to='home' smooth={true} offset={0} duration={500}>Home</Link></li>
+          <li><Link to='about_us' smooth={true} offset={-240} duration={500}>About Us</Link></li>
+          <li><Link to='services' smooth={true} offset={240} duration={500}>Services</Link></li>
+          <li><Link to='contact' smooth={true} offset={150} duration={500}>Contact Us</Link></li>
         <Button name='Sign Up' classname='text-white flex bg-black  rounded-md  px-6 py-2 my-1'/>
       </div>
       )}

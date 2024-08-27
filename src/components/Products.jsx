@@ -8,7 +8,7 @@ function Products() {
         <p className="text-center text-xl font-thin mt-4 mx-auto max-w-[540px]">Use our system to get a better education in programming, web development, blockchain technology
             and many more web3 things
         </p>
-        <img src={product} alt='Products ShowCase' className="mt-10 mb-10 "/>
+        <img src={product} alt='Products ShowCase' className="mt-10 mb-10 mx-2 "/>
     </section>
   )
 }
