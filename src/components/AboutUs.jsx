@@ -1,11 +1,11 @@
 
 import Button from "./Button";
 
-function AboutUs(){
+function AboutUs(){ 
   
 
   return (
-    <section className="flex flex-col md:flex justify-center py-24 ">
+    <section name='about_us' className="flex flex-col md:flex justify-center py-24 ">
       <div>
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-3xl font-bold my-2">About Us</h1>

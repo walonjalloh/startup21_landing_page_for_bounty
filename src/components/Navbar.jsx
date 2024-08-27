@@ -2,6 +2,7 @@ import  Button  from './Button'
 import { logo } from '../assets/asset'
 import { FaBars } from 'react-icons/fa'
 import { useState } from 'react'
+import { Link } from 'react-scroll'
  
 
 function Navbar() {
@@ -12,16 +13,18 @@ function Navbar() {
     setIsOpen(!isopen)
   }
 
+  
+
   return (
     <header className='md:h-[65px] lg:h-[70px] bg-blue-200 sticky top-0 z-50'> 
       <nav>
         <div className='flex justify-between items-center mx-4  '>
           <div><img src={logo} alt="logo" className='h-[65px] w-[100px] lg:h-[70px] lg:w-[100px]'/></div>
-          <div className='hidden md:flex gap-4 text-1xl cursor-pointer lg:gap-10 lg:text-3xl font-bold'>
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Services</a>
-            <a href="#">Contact Us</a>
+          <div className='hidden md:flex gap-4 text-1xl cursor-pointer lg:gap-10 lg:text-3xl font-bold list-none'>
+            <li><Link to='home' smooth={true} offset={0} duration={500}>Home</Link></li>
+            <li><Link to='about_us' smooth={true} offset={-240} duration={500} >About Us</Link></li>
+            <li><Link to='services' smooth={true} offset={240} duration={500}>Services</Link></li>
+            <li href="#">Contact Us</li>
           </div>
           <div>
             <Button name='Sign Up' classname='text-white hidden md:flex bg-black rounded-md md:text-xl lg:text-2xl px-4 py-2'/>

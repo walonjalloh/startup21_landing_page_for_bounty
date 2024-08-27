@@ -5,15 +5,15 @@ import { v4 as uuidv4 } from 'uuid'
 
 function Services() {
   return (
-    <section className="py-24">
+    <section name='services' className="py-24">
         <div className="flex flex-col items-center mx-2">
             <h2 className="text-2xl font-bold text-center">Pricing</h2>
             <p className="mt-6 font-sm mx-auto max-w-[540px] text-xl text-center tracking-tight">Free forever. 
                 Upgrade for better learning and
                  certificate and good mentorship program</p>
-            <div className="flex flex-col gap-6 items-center mt-12 lg:flex-row lg:items-end  lg:justify-center ">
+            <div className="flex flex-col gap-[100px] items-center mt-12 lg:flex-row lg:items-end  lg:justify-center">
                 {pricingTiers.map((card) => (
-                    <div className= {twMerge("p-10 border border-[#f1f1f1] rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs", card.inverse && 'bg-black border-black text-white')} key={card.key}>
+                    <div className= {twMerge("p-10 border border-[#f1f1f1] rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs hover:scale-125", card.inverse && 'bg-black border-black text-white')} key={card.key}>
                         <div className="flex justify-between">
                         <h3 className={twMerge("text-lg font-bold text-black/50",card.inverse && 'text-white/60' )}>{card.title}</h3>
                         {card.popular && (

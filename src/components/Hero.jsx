@@ -3,7 +3,7 @@ import Button from './Button'
 function Hero() {
   return (
     <section>
-        <div className="bg-hero-image bg-cover bg-no-repeat bg-center w-full h-[600px] items-center justify-center">
+        <div name="home" className="bg-hero-image bg-cover bg-no-repeat bg-center w-full h-[600px] items-center justify-center">
             <div className="text-center">
                 <h1 className="pt-[200px] text-white font-extrabold text-center text-6xl md:text-10xl lg:text-[150px]">Learn X</h1>
                 <p className="mt-10 text-white text-center  text-3xl md:text-4xl lg:6xl font-bold">Experience World-Class Education from industry experts. Gain the skills you need to succed</p>
