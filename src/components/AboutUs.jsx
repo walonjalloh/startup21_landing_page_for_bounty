@@ -5,11 +5,11 @@ function AboutUs(){
   
 
   return (
-    <section className="flex flex-col md:flex justify-center ">
+    <section className="flex flex-col md:flex justify-center py-24 ">
       <div>
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-3xl font-bold my-2">About Us</h1>
-          <p className="text-center text-xl font-serif font-thin mx-2">
+          <p className="text-center text-xl font-serif font-thin mx-auto max-w-[540px]">
             Welcome to Learn X, where we are reshaping the future of education.
             Founded in 2020, we have been at the forefront of educational
             innovation, serving over 1 million learners across 50 countries.
@@ -17,7 +17,7 @@ function AboutUs(){
         </div>
         <div className="flex flex-col justify-center">
           <h1 className="text-center mt-5 font-bold text-3xl">Our Vision</h1>
-          <p className="text-xl text-center font-thin font-serif mx-4">We are here to help every get familiar with the web and how you can build product for it and also
+          <p className="text-xl text-center font-thin font-serif mx-auto max-w-[540px]">We are here to help every get familiar with the web and how you can build product for it and also
             earned a money
           </p>
         </div>

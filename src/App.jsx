@@ -4,11 +4,11 @@ import Page from './pages/Page'
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar/>
       <Page/>
       <Footer/>
-    </>
+    </div>
   )
 }
 
