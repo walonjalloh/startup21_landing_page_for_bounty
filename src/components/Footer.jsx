@@ -4,6 +4,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
+import logo2 from '../assets/logo2.png'
 
 function Footer() {
 
@@ -11,7 +12,11 @@ function Footer() {
 
   return (
     <footer name='contact' className='bg-black'>
+      
       <div className='flex flex-col gap-4 items-center mt-2 pt-2'>
+      <div className='flex items-center justify-center'>
+        <img src={logo2} alt="logo" className='h-[100px] '/>
+      </div>
         <nav className='list-none flex flex-col md:flex-row md:gap-5 text-center text-white md:text-xl gap-4 font-bold '>
           <li><Link>About Us</Link></li>
           <li><Link>Pricing</Link></li>
