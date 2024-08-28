@@ -6,6 +6,7 @@ import MeetTeam from "../components/MeetTeam"
 import CallToAction from "../components/CallToAction"
 import Contact from "../components/Contact"
 import { useState } from "react"
+import Testimonials from "../components/Testimonials"
 
 
 function Page() {
@@ -23,6 +24,7 @@ function Page() {
         <AboutUs/>
         <Products/>
         <Services/>
+        <Testimonials/>
         <MeetTeam/>
         <CallToAction btn={hanldeOpen}/>
         <Contact open={open}/>
