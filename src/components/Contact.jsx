@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import { FaPhone, FaAt } from 'react-icons/fa6'
 
 function Contact({ open }) {
 
@@ -16,6 +17,20 @@ function Contact({ open }) {
                  <input className="border border-black rounded-md w-[300px] md:w-[400px] my-2" type="email" name='email' placeholder="Email"/>
                  <button className="border border-black py-2 px-4 rounded-md bg-black text-white">Submit</button>
              </form>
+             <div>
+              <div className='flex  flex-col py-10'>
+                <h1 className='text-2xl font-bold tracking-tight py-4'>Our Contact Info</h1>
+                <div className='flex flex-row gap-4 items-center py-4'>
+                  <FaPhone/>
+                  <p className='text-md font-bold'>+12345-556-778-65</p>
+                </div> 
+                <div className='flex gap-4 items-center py-4'>
+                  <FaAt/> 
+                  <p className='text-md font-bold'>learn_x@gamil.com</p>
+                </div>  
+              </div>
+              <div></div>
+             </div>
          </div>
         )}
        
