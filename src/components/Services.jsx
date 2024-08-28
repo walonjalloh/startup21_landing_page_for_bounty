@@ -7,7 +7,7 @@ function Services() {
   return (
     <section name='pricing' className="py-24">
         <div className="flex flex-col items-center mx-2">
-            <h2 className="text-2xl font-bold text-center">Pricing</h2>
+            <h2 className="text-3xl font-bold text-center">Pricing</h2>
             <p className="mt-6 font-sm mx-auto max-w-[540px] text-xl text-center tracking-tight">Free forever. 
                 Upgrade for better learning and
                  certificate and good mentorship program</p>

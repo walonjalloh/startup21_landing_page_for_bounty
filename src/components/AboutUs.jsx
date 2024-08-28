@@ -17,7 +17,7 @@ function AboutUs(){
         </div>
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-center mt-5 font-bold text-3xl">Our Vision</h1>
-          <p className="text-lg text-center font-thin  mx-auto max-w-[480px] overflow-x-clip">We are here to help every get familiar with the web and how you can build product for it and also
+          <p className="text-lg text-center font-thin  mx-2 max-w-[480px] overflow-x-clip">We are here to help every get familiar with the web and how you can build product for it and also
             earned a money
           </p>
         </div>
@@ -44,7 +44,7 @@ function AboutUs(){
         </div>
 
         <div className="flex flex-col mt-10 text-center items-center">
-          <h2 className="text-3xl font-bold  ">Join Our Learning Community</h2>
+          <h2 className="text-3xl font-bold mx-2 my-2 ">Join Our Learning Community</h2>
           <p className="text-xl font-thin mx-2">Experience the future of education today!</p>
           <Button name="Get Started" classname='text-white bg-black px-4 py-2  rounded-md mt-4 ' />
         </div>
