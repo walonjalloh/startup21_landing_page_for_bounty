@@ -1,6 +1,5 @@
 import testimonial from "../utils/testimonial"
 import { v4 as uuidv4 } from 'uuid';
-import { motion } from "framer-motion";
 
 const table1 = testimonial.slice(0,3);
 const table2 = testimonial.slice(3,6);
