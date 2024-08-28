@@ -13,10 +13,10 @@ function Testimonials() {
           <div className="text-center font-extrabold text-3xl py-4 ">Testimonials</div>
           <h1 className="text-center font-medium text-2xl tracking-tight">What people say about us </h1>
         </div>
-          <div className="flex justify-center  gap-6 lg:gap-10">
-             <div className="flex flex-col gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] "> 
+          <div className="flex justify-center  gap-12 lg:gap-[150px]">
+             <div className="flex flex-col gap-6 mt-10  "> 
               {table1.map((table)=> (
-                <div className="py-5 flex flex-col border border-white justify-center items-center rounded-3xl shadow-[0_7px_14px_#EAEAEA]  max-w-xs" key={uuidv4}>
+                <div className="py-5 flex flex-col border h-[200px] border-white justify-center items-center rounded-3xl shadow-[0_7px_14px_#EAEAEA]  max-w-xs" key={uuidv4}>
                   <p className="text-center font-medium tracking-tight">{table.text}</p>
                   <div className="flex flex-row justify-start items-start mx-2 mt-4">
                     <img src={table.img} alt="img" className="h-10 mx-2"/>
@@ -28,9 +28,9 @@ function Testimonials() {
                 </div>
               ))}
             </div>
-            <div className="hidden md:flex flex-col gap-6  mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] "> 
+            <div className="hidden md:flex flex-col gap-6  mt-10  "> 
               {table2.map((table)=> (
-                <div className="py-5 flex flex-col border border-white justify-center items-center rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs" key={uuidv4}>
+                <div className="py-5 flex flex-col border h-[200px] border-white justify-center items-center rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs" key={uuidv4}>
                   <p className="text-center font-medium tracking-tight">{table.text}</p>
                   <div className="flex flex-row justify-start items-start mx-2 mt-4">
                     <img src={table.img} alt="img" className="h-10 mx-2"/>
@@ -42,9 +42,9 @@ function Testimonials() {
                 </div>
               ))}
             </div>
-            <div className="hidden lg:flex flex-col gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] "> 
+            <div className="hidden lg:flex flex-col gap-6 mt-10 "> 
               {table3.map((table)=> (
-                <div className="py-5 flex flex-col border border-white justify-center items-center rounded-3xl shadow-[0_7px_14px_#EAEAEA]  max-w-xs" key={uuidv4}>
+                <div className="py-5 flex flex-col border h-[200px] border-white justify-center items-center rounded-3xl shadow-[0_7px_14px_#EAEAEA]  max-w-xs" key={uuidv4}>
                   <p className="text-center font-medium tracking-tight">{table.text}</p>
                   <div className="flex flex-row justify-start items-start mx-2 mt-4">
                     <img src={table.img} alt="img" className="h-10 mx-2"/>

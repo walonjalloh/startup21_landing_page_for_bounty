@@ -9,18 +9,18 @@ function Contact({ open }) {
     <section name='contact' className="py-24"> 
         {open && (
              <div className="flex flex-col justify-center items-center ">
-             <h2 className="text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-orange-500">Contact Us</h2>
+             <h2 className="text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-orange-500">Ask us Question</h2>
              <form className="flex flex-col justify-start items-center my-10">
-                 <label className="text-2xl font-md">Name</label>
+                 <label className="text-2xl font-bold">Name</label>
                  <input  className='w-[300px] md:w-[400px]  my-2 border border-black rounded-md' type="text" name="name" placeholder="Name"/>
-                 <label className="text-2xl font-md">Email</label>
+                 <label className="text-2xl font-bold">Email</label>
                  <input className="border border-black rounded-md w-[300px] md:w-[400px] my-2" type="email" name='email' placeholder="Email"/>
-                 <label className='text-2xl font-md'>Question</label>
+                 <label className='text-2xl font-bold'>Question</label>
                  <input  className="border border-black rounded-md w-[300px] md:w-[400px] my-2"  type="text" name="question" placeholder='Question' />
                  <button className="border border-black py-2 px-4 rounded-md bg-black text-white">Submit</button>
              </form>
              <div>
-              <div className='flex  flex-col py-10'>
+              <div className='flex  flex-col py-10 border px-10 border-black/50'>
                 <h1 className='text-2xl font-bold tracking-tight py-4'>Our Contact Info</h1>
                 <div className='flex flex-row gap-4 items-center py-4'>
                   <FaPhone/>

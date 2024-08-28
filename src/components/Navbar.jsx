@@ -20,7 +20,7 @@ function Navbar() {
       <nav>
         <div className='flex justify-between items-center mx-4  '>
           <div><img src={logo} alt="logo" className='h-[65px] w-[100px] lg:h-[70px] lg:w-[100px]'/></div>
-          <div className='hidden md:flex gap-4 text-1xl cursor-pointer lg:gap-10 lg:text-3xl font-bold list-none'>
+          <div className='hidden md:flex gap-4 text-1xl cursor-pointer lg:gap-10 lg:text-[20px] font-bold list-none'>
             <li><Link to='home' smooth={true} offset={0} duration={500}>Home</Link></li>
             <li><Link to='about_us' smooth={true} offset={-240} duration={500} >About Us</Link></li>
             <li><Link to='services' smooth={true} offset={240} duration={500}>Services</Link></li>
