@@ -11,7 +11,7 @@ function Services() {
             <p className="mt-6 font-sm mx-auto max-w-[540px] text-xl text-center tracking-tight">Free forever. 
                 Upgrade for better learning and
                  certificate and good mentorship program</p>
-            <div className="flex flex-col gap-[10px] items-center mt-12 lg:flex-row lg:items-end  lg:justify-center">
+            <div className="flex flex-col gap-[10px] items-center mt-12 lg:flex-row lg:items-end lg:gap-[90px] lg:justify-center">
                 {pricingTiers.map((card) => (
                     <div className= {twMerge("p-10 border border-[#f1f1f1] rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs hover:scale-125", card.inverse && 'bg-black border-black text-white')} key={card.key}>
                         <div className="flex justify-between">
