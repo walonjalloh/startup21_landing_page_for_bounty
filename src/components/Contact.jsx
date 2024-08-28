@@ -15,6 +15,8 @@ function Contact({ open }) {
                  <input  className='w-[300px] md:w-[400px]  my-2 border border-black rounded-md' type="text" name="name" placeholder="Name"/>
                  <label className="text-2xl font-md">Email</label>
                  <input className="border border-black rounded-md w-[300px] md:w-[400px] my-2" type="email" name='email' placeholder="Email"/>
+                 <label className='text-2xl font-md'>Question</label>
+                 <input  className="border border-black rounded-md w-[300px] md:w-[400px] my-2"  type="text" name="question" placeholder='Question' />
                  <button className="border border-black py-2 px-4 rounded-md bg-black text-white">Submit</button>
              </form>
              <div>
