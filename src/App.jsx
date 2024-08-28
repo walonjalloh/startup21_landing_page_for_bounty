@@ -4,7 +4,7 @@ import Page from './pages/Page'
 
 function App() {
   return (
-    <div className="overflow-x-hidden">
+    <div>
       <Navbar/>
       <Page/>
       <Footer/>
