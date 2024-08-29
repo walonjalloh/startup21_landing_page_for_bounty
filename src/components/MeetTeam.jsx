@@ -9,7 +9,7 @@ function MeetTeam() {
         <div>
             <h1 className="text-center font-extrabold text-3xl py-10 bg-gradient-to-r from-stone-600 via-red-600 to-green-300 bg-clip-text text-transparent">Meet the team</h1>
         </div>
-        <div className='flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]'>
+        <div className='flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_25%,black_75%,transparent)]'>
         <motion.div
         animate = {{
             translateX: '-50%',
